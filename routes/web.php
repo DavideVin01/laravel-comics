@@ -14,35 +14,35 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return 'Home';
+    return view('Home');
 });
 Route::get('/comics', function () {
-    return 'Comics';
+    return view('Comics');
 });
 Route::get('/characters', function () {
-    return 'Characters';
+    return view('Characters');
 });
 Route::get('/movies', function () {
-    return 'movies';
+    return view('movies');
 });
 Route::get('/tv', function () {
-    return 'tv';
+    return view('tv');
 });
 Route::get('/games', function () {
-    return 'games';
+    return view('games');
 });
 Route::get('/collectibles', function () {
-    return 'collectibles';
+    return view('collectibles');
 });
 Route::get('/videos', function () {
-    return 'videos';
+    return view('videos');
 });
 Route::get('/fans', function () {
-    return 'fans';
+    return view('fans');
 });
 Route::get('/news', function () {
-    return 'news';
+    return view('news');
 });
 Route::get('/shop', function () {
-    return 'shop';
+    return view('shop');
 });
