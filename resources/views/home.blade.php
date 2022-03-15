@@ -59,8 +59,59 @@
             <div class="container"></div>
         </div>
     </section>
-    <main></main>
-    <footer></footer>
+    <section>
+        <div id="comic-card">
+            <div class="container">
+                <div class="main-title">CURRENT SERIES</div>
+                <div class="figure">
+                    <div class="d-flex flex-column" role="button">
+                        <img class="grow" src="" alt="Cards" />
+                        <div class="text-uppercase">Titolo</div>
+                    </div>
+                </div>
+                <div id="btn-container" class="d-flex justify-content-center">
+                    <button id="load-more" class="grow" type="button">LOAD MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="shop" class="bg-blue shadow">
+            <div class="container">
+                <ul>
+                    <li>
+                        <figure role="button" class="grow">
+                            <img src="" alt=" item.description" />
+                            <span class="li-text">Item.text</span>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-darkgray">
+        <div class="container">
+            <div class="flex">
+                <div class="column">
+                    <button><a>SIGN-UP NOW!</a></button>
+                </div>
+                <div class="column d-flex align-items-center" role="button">
+                    <h3>FOLLOW US</h3>
+                    <ul>
+                        <li><img src="../assets/footer-facebook.png" alt="Facebook" /></li>
+                        <li><img src="../assets/footer-twitter.png" alt="Twitter" /></li>
+                        <li><img src="../assets/footer-youtube.png" alt="YouTube" /></li>
+                        <li>
+                            <img src="../assets/footer-pinterest.png" alt="Pinterest" />
+                        </li>
+                        <li>
+                            <img src="../assets/footer-periscope.png" alt="Periscope" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
