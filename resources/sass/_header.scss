@@ -1,0 +1,32 @@
+// Header
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    #header-logo {
+      width: 80px;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        list-style-type: none;
+        padding: 0 10px;
+        a {
+          cursor: pointer;
+          font-weight: 700;
+          text-decoration: none;
+          color: #1c1c1c;
+          &:active,
+          &:hover {
+            color: dodgerblue;
+          }
+        }
+        .active {
+          color: dodgerblue;
+          padding-bottom: 53px;
+          border-bottom: 5px solid dodgerblue;
+        }
+      }
+    }
+}

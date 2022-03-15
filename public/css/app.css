@@ -1,3 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
+}
+
+.shadow {
+  box-shadow: 0 2px 25px 0 black;
+}
+
+.text-blue {
+  color: #0282f9;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #1c1c1c;
+}
+
+.bg-blue {
+  background: #0282f9;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-black {
+  background: #1c1c1c;
+}
+
+.bg-darkgray {
+  background: #303030;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+header #header-logo {
+  width: 80px;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+header ul li a {
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1c1c1c;
+}
+header ul li a:active, header ul li a:hover {
+  color: dodgerblue;
+}
+header ul li .active {
+  color: dodgerblue;
+  padding-bottom: 53px;
+  border-bottom: 5px solid dodgerblue;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+.column h3 {
+  color: dodgerblue;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 30px;
+}
+
+ul {
+  display: flex;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid dodgerblue;
+  margin-left: 40px;
+  padding: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+#content {
+  padding: 50px;
+  text-align: center;
+  background-image: url("../assets/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 40vh;
+}
+
+h3 {
+  color: white;
+}
+
+#comic-card {
+  background-color: #1c1c1c;
+  color: #fff;
+  position: relative;
+}
+#comic-card .main-title {
+  position: absolute;
+  top: -25px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px 25px;
+  font-weight: bold;
+  background-color: dodgerblue;
+  padding-bottom: 10px;
+}
+
+.container {
+  padding: 30px 20px;
+}
+.container #load-more {
+  color: #fff;
+  background-color: dodgerblue;
+  padding: 5px 50px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid dodgerblue;
+}
+
+.figure {
+  width: 16.6666666667%;
+  padding: 15px 30px;
+}
+.figure img {
+  margin-bottom: 10px;
+  height: 200px;
+}
+.figure div {
+  font-size: 13px;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
+#shop {
+  padding: 30px;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+ul li {
+  list-style-type: none;
+}
+ul li figure {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+ul li img {
+  max-width: 60px;
+  height: 50px;
+  padding-right: 10px;
+}
+
+.grow {
+  transition: scale 0.5s 0.2s ease;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  background-image: url("../assets/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+}
+
+.single-column {
+  display: flex;
+  flex-direction: column;
+}
+.single-column ul {
+  margin: 0 0 20px 0;
+}
+
+.links-box {
+  padding: 40px 20px;
+}
+
+#links {
+  background-image: url("../assets/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  color: #fff;
+}
+
+div {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+li h3 {
+  font-size: 18px;
+}
+
 a {
-  color: green;
+  color: #a5a5a5;
+  font-size: 12px;
+  text-decoration: none;
 }

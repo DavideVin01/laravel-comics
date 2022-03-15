@@ -1,0 +1,34 @@
+// Footer
+.flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .column {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      color: dodgerblue;
+      font-size: 22px;
+      margin-bottom: 0;
+    }
+  }
+  footer {
+    padding: 30px;
+  }
+  ul {
+    display: flex;
+    padding-left: 15px;
+    margin-bottom: 0;
+    li {
+      list-style-type: none;
+      padding: 0 10px;
+    }
+  }
+  button {
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    margin-left: 40px;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+  }

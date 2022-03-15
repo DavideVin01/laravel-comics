@@ -1,0 +1,45 @@
+// Card
+#comic-card {
+    background-color: #1c1c1c;
+    color: #fff;
+    position: relative;
+    .main-title {
+      position: absolute;
+      top: -25px;
+      text-align: center;
+      margin-left: 10px;
+      font-size: 20px;
+      padding: 10px 25px;
+      font-weight: bold;
+      background-color: dodgerblue;
+      padding-bottom: 10px;
+    }
+  }
+  .container {
+    padding: 30px 20px;
+    #load-more {
+      color: #fff;
+      background-color: dodgerblue;
+      padding: 5px 50px;
+      font-size: 12px;
+      font-weight: bold;
+      border: 1px solid dodgerblue;
+    }
+  }
+  .figure {
+    width: calc(100% / 6);
+    padding: 15px 30px;
+    img {
+      margin-bottom: 10px;
+      height: 200px;
+    }
+    div {
+      font-size: 13px;
+    }
+  }
+  .grow {
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
