@@ -56,3 +56,9 @@ Route::get('/news', function () {
 Route::get('/shop', function () {
     return view('shop');
 })->name('shop');
+
+Route::get('/comic', function () {
+    $comics = config('comics');
+
+    return view('comic', ['comics' => $comics]);
+})->name('comic');
