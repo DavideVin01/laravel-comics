@@ -1,5 +1,5 @@
 <footer class="bg-darkgray">
-    <div class="container">
+    <div class="container p-0">
         <div class="flex d-flex align-items-center justify-content-between">
             <div class="column">
                 <button><a>SIGN-UP NOW!</a></button>

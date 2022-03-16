@@ -16,6 +16,10 @@ body {
   box-shadow: 0 2px 25px 0 black;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .text-blue {
   color: #0282f9;
 }
@@ -207,4 +211,42 @@ a {
   color: #a5a5a5;
   font-size: 12px;
   text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+.column h3 {
+  color: dodgerblue;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 30px;
+}
+
+ul {
+  display: flex;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid dodgerblue;
+  margin-left: 40px;
+  padding: 15px;
+  color: #fff;
+  font-size: 18px;
 }

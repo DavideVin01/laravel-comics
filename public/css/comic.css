@@ -16,6 +16,10 @@ body {
   box-shadow: 0 2px 25px 0 black;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .text-blue {
   color: #0282f9;
 }

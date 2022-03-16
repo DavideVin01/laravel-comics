@@ -8,9 +8,9 @@
             {{-- Blue Section --}}
         </section>
         <section>
-            @foreach ($comics as $index => $comic)
-                <h4>{{ $comic['title'] }}</h4>
-            @endforeach
+            <h2 class="text-uppercase">{{ $comic['title'] }}</h4>
+                <div id="comic-price">{{ $comic['price'] }}</div>
+                <div id="comic-description">{{ $comic['description'] }}</div>
         </section>
     </div>
 @endsection
