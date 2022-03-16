@@ -13,50 +13,8 @@
 </head>
 
 <body>
-    <div class="bg-white">
-        <div class="container">
-            <header>
-                <img id="header-logo" src={{ asset('/img/dc-logo.png') }} alt="DC LOGO" />
-                <ul>
-                    <li>
-                        <a href="{{ route('characters') }}">Characters</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('comics') }}">Comics</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('movies') }}">Movies</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('tv') }}">Tv</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('games') }}">Games</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('collectibles') }}">Collectibles</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('videos') }}">Videos</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('fans') }}">Fans</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('news') }}">News</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('shop') }}">Shop</a>
-                    </li>
-                </ul>
-            </header>
-        </div>
-    </div>
-    <section>
-        <div id="content" class="bg-black">
-            <div class="container"></div>
-        </div>
-    </section>
+    @include('includes.header')
+    @include('includes.content')
     <section>
         <div id="comic-card">
             <div class="container">
@@ -87,29 +45,7 @@
             </div>
         </div>
     </section>
-    <footer class="bg-darkgray">
-        <div class="container">
-            <div class="flex">
-                <div class="column">
-                    <button><a>SIGN-UP NOW!</a></button>
-                </div>
-                <div class="column d-flex align-items-center" role="button">
-                    <h3>FOLLOW US</h3>
-                    <ul>
-                        <li><img src="../assets/footer-facebook.png" alt="Facebook" /></li>
-                        <li><img src="../assets/footer-twitter.png" alt="Twitter" /></li>
-                        <li><img src="../assets/footer-youtube.png" alt="YouTube" /></li>
-                        <li>
-                            <img src="../assets/footer-pinterest.png" alt="Pinterest" />
-                        </li>
-                        <li>
-                            <img src="../assets/footer-periscope.png" alt="Periscope" />
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    @include('includes.footer')
 </body>
 
 </html>
