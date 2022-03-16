@@ -5,12 +5,12 @@
             <div class="container">
                 <div class="main-title">CURRENT SERIES</div>
                 <div class="figure d-flex flex-wrap">
-                    @foreach ($comics as $comic)
+                    @foreach ($comics as $index => $comic)
                         <div class="d-flex flex-wrap flex-column mx-3 mb-4 figure-container" role="button">
-                            <div>
+                            <a href="{{ route('comic', ['id' => $index]) }}">
                                 <img class="grow" src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}" />
-                            </div>
-                            <div class="text-uppercase">{{ $comic['series'] }}</div>
+                                <div class="text-uppercase">{{ $comic['series'] }}</div>
+                            </a>
                         </div>
                     @endforeach
                 </div>

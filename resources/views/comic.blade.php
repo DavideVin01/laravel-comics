@@ -3,5 +3,14 @@
 
 
 @section('main')
-    <h1>PROVA</h1>
+    <div class="container">
+        <section>
+            {{-- Blue Section --}}
+        </section>
+        <section>
+            @foreach ($comics as $index => $comic)
+                <h4>{{ $comic['title'] }}</h4>
+            @endforeach
+        </section>
+    </div>
 @endsection

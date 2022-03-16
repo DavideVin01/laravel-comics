@@ -57,8 +57,10 @@ Route::get('/shop', function () {
     return view('shop');
 })->name('shop');
 
-Route::get('/comic', function () {
+Route::get('/comics/{id}', function ($id) {
     $comics = config('comics');
 
-    return view('comic', ['comics' => $comics]);
+    $comic = $comics[$id];
+
+    return view('comic', compact('comic'));
 })->name('comic');
