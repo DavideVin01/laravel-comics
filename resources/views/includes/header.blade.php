@@ -1,8 +1,8 @@
 <div class="bg-white">
-    <div class="container">
+    <div class="container py-0">
         <header>
             <img id="header-logo" src={{ asset('/img/dc-logo.png') }} alt="DC LOGO" />
-            <ul>
+            <ul class="text-uppercase">
                 <li>
                     <a href="{{ route('characters') }}">Characters</a>
                 </li>

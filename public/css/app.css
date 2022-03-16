@@ -75,58 +75,6 @@ header ul li .active {
   border-bottom: 5px solid dodgerblue;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.column {
-  display: flex;
-  justify-content: space-between;
-}
-.column h3 {
-  color: dodgerblue;
-  font-size: 22px;
-  margin-bottom: 0;
-}
-
-footer {
-  padding: 30px;
-}
-
-ul {
-  display: flex;
-  padding-left: 15px;
-  margin-bottom: 0;
-}
-ul li {
-  list-style-type: none;
-  padding: 0 10px;
-}
-
-button {
-  background-color: transparent;
-  border: 1px solid dodgerblue;
-  margin-left: 40px;
-  padding: 15px;
-  color: #fff;
-  font-size: 18px;
-}
-
-#content {
-  padding: 50px;
-  text-align: center;
-  background-image: url("../assets/jumbotron.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  height: 40vh;
-}
-
-h3 {
-  color: white;
-}
-
 #comic-card {
   background-color: #1c1c1c;
   color: #fff;
@@ -157,7 +105,6 @@ h3 {
 }
 
 .figure {
-  width: 16.6666666667%;
   padding: 15px 30px;
 }
 .figure img {
@@ -167,12 +114,29 @@ h3 {
 .figure div {
   font-size: 13px;
 }
+.figure .figure-container {
+  width: 153px;
+}
 
 .grow {
   transition: all 0.2s ease-in-out;
 }
 .grow:hover {
   transform: scale(1.1);
+}
+
+#content {
+  padding: 50px;
+  text-align: center;
+  background-image: url("../img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 40vh;
+}
+
+h3 {
+  color: white;
 }
 
 #shop {
@@ -215,10 +179,6 @@ ul li img {
   width: 100%;
 }
 
-.single-column {
-  display: flex;
-  flex-direction: column;
-}
 .single-column ul {
   margin: 0 0 20px 0;
 }
@@ -228,16 +188,12 @@ ul li img {
 }
 
 #links {
-  background-image: url("../assets/footer-bg.jpg");
+  background-image: url("../img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
   display: flex;
   color: #fff;
-}
-
-div {
-  display: flex;
 }
 
 li {
