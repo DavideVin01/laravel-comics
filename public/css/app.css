@@ -11504,3 +11504,9 @@ button {
   width: 100%;
   background-color: #55BA59;
 }
+
+.box-blue {
+  width: 100%;
+  height: 50px;
+  background-color: dodgerblue;
+}
